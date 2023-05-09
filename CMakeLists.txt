@@ -52,7 +52,6 @@ ecbuild_bundle( PROJECT genint    GIT "https://github.com/jeromebarre/genint.git
 
 ecbuild_bundle( PROJECT ioda-data      GIT "https://github.com/JCSDA-internal/ioda-data.git"      BRANCH develop UPDATE )
 ecbuild_bundle( PROJECT ufo-data       GIT "https://github.com/JCSDA-internal/ufo-data.git"       BRANCH develop UPDATE )
-ecbuild_bundle( PROJECT fv3-jedi-data  GIT "https://github.com/JCSDA-internal/fv3-jedi-data.git"  BRANCH develop UPDATE )
 
 
 ecbuild_bundle_finalize()
